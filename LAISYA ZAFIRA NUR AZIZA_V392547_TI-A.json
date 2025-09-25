@@ -1,0 +1,876 @@
+{
+  "sensor_iot": [
+    {
+      "sensor_id": "S001",
+      "type": "kamera",
+      "location": "perbatasan utara",
+      "status": "aktif",
+      "last_update": "2025-09-19T09:00:00Z",
+      "data_snapshot": "url_gambar_001"
+    },
+    {
+      "sensor_id": "S002",
+      "type": "sensor_gerak",
+      "location": "jalan masuk desa",
+      "status": "aktif",
+      "motion_detected": false,
+      "last_update": "2025-09-19T09:05:00Z"
+    },
+    {
+      "sensor_id": "S003",
+      "type": "sensor_lingkungan",
+      "location": "pusat desa",
+      "status": "aktif",
+      "temperature": 28.1,
+      "humidity": 65,
+      "air_quality_index": 40,
+      "last_update": "2025-09-19T09:10:00Z"
+    },
+    {
+      "sensor_id": "S004",
+      "type": "kamera",
+      "location": "daerah rentan kejahatan",
+      "status": "aktif",
+      "last_update": "2025-09-19T09:15:00Z",
+      "data_snapshot": "url_gambar_002"
+    },
+    {
+      "sensor_id": "S005",
+      "type": "sensor_gerak",
+      "location": "pos ronda malam",
+      "status": "aktif",
+      "motion_detected": true,
+      "last_update": "2025-09-19T09:20:00Z"
+    },
+    {
+      "sensor_id": "S006",
+      "type": "sensor_lingkungan",
+      "location": "area sekolah",
+      "status": "aktif",
+      "temperature": 27.7,
+      "humidity": 70,
+      "air_quality_index": 38,
+      "last_update": "2025-09-19T09:25:00Z"
+    },
+    {
+      "sensor_id": "S007",
+      "type": "kamera",
+      "location": "pos keamanan desa",
+      "status": "aktif",
+      "last_update": "2025-09-19T09:30:00Z",
+      "data_snapshot": "url_gambar_003"
+    },
+    {
+      "sensor_id": "S008",
+      "type": "sensor_gerak",
+      "location": "perbatasan selatan",
+      "status": "aktif",
+      "motion_detected": false,
+      "last_update": "2025-09-19T09:35:00Z"
+    },
+    {
+      "sensor_id": "S009",
+      "type": "sensor_lingkungan",
+      "location": "kawasan persawahan",
+      "status": "aktif",
+      "temperature": 29.0,
+      "humidity": 63,
+      "air_quality_index": 39,
+      "last_update": "2025-09-19T09:40:00Z"
+    },
+    {
+      "sensor_id": "S010",
+      "type": "kamera",
+      "location": "kantor kepala desa",
+      "status": "aktif",
+      "last_update": "2025-09-19T09:45:00Z",
+      "data_snapshot": "url_gambar_004"
+    },
+    {
+      "sensor_id": "S011",
+      "type": "sensor_gerak",
+      "location": "area pasar desa",
+      "status": "aktif",
+      "motion_detected": true,
+      "last_update": "2025-09-19T09:50:00Z"
+    },
+    {
+      "sensor_id": "S012",
+      "type": "sensor_lingkungan",
+      "location": "area olahraga",
+      "status": "aktif",
+      "temperature": 28.5,
+      "humidity": 66,
+      "air_quality_index": 37,
+      "last_update": "2025-09-19T09:55:00Z"
+    },
+    {
+      "sensor_id": "S013",
+      "type": "kamera",
+      "location": "daerah sekitar jembatan",
+      "status": "aktif",
+      "last_update": "2025-09-19T10:00:00Z",
+      "data_snapshot": "url_gambar_005"
+    },
+    {
+      "sensor_id": "S014",
+      "type": "sensor_gerak",
+      "location": "jalan utama desa",
+      "status": "aktif",
+      "motion_detected": false,
+      "last_update": "2025-09-19T10:05:00Z"
+    },
+    {
+      "sensor_id": "S015",
+      "type": "sensor_lingkungan",
+      "location": "area rekreasi desa",
+      "status": "aktif",
+      "temperature": 27.3,
+      "humidity": 68,
+      "air_quality_index": 36,
+      "last_update": "2025-09-19T10:10:00Z"
+    },
+    {
+      "sensor_id": "S016",
+      "type": "kamera",
+      "location": "pemukiman RT 05",
+      "status": "aktif",
+      "last_update": "2025-09-19T10:15:00Z",
+      "data_snapshot": "url_gambar_006"
+    },
+    {
+      "sensor_id": "S017",
+      "type": "sensor_gerak",
+      "location": "pos pengamanan barat",
+      "status": "aktif",
+      "motion_detected": true,
+      "last_update": "2025-09-19T10:20:00Z"
+    },
+    {
+      "sensor_id": "S018",
+      "type": "sensor_lingkungan",
+      "location": "tempat parkir utama",
+      "status": "aktif",
+      "temperature": 29.2,
+      "humidity": 64,
+      "air_quality_index": 35,
+      "last_update": "2025-09-19T10:25:00Z"
+    },
+    {
+      "sensor_id": "S019",
+      "type": "kamera",
+      "location": "area sekolah dasar",
+      "status": "aktif",
+      "last_update": "2025-09-19T10:30:00Z",
+      "data_snapshot": "url_gambar_007"
+    },
+    {
+      "sensor_id": "S020",
+      "type": "sensor_gerak",
+      "location": "area hutan desa",
+      "status": "aktif",
+      "motion_detected": false,
+      "last_update": "2025-09-19T10:35:00Z"
+    },
+    {
+      "sensor_id": "S021",
+      "type": "sensor_lingkungan",
+      "location": "dekat sungai",
+      "status": "aktif",
+      "temperature": 26.8,
+      "humidity": 72,
+      "air_quality_index": 41,
+      "last_update": "2025-09-19T10:40:00Z"
+    },
+    {
+      "sensor_id": "S022",
+      "type": "kamera",
+      "location": "jalan tikus desa",
+      "status": "aktif",
+      "last_update": "2025-09-19T10:45:00Z",
+      "data_snapshot": "url_gambar_008"
+    },
+    {
+      "sensor_id": "S023",
+      "type": "sensor_gerak",
+      "location": "pos ronda timur",
+      "status": "aktif",
+      "motion_detected": true,
+      "last_update": "2025-09-19T10:50:00Z"
+    },
+    {
+      "sensor_id": "S024",
+      "type": "sensor_lingkungan",
+      "location": "area persawahan timur",
+      "status": "aktif",
+      "temperature": 28.0,
+      "humidity": 67,
+      "air_quality_index": 39,
+      "last_update": "2025-09-19T10:55:00Z"
+    },
+    {
+      "sensor_id": "S025",
+      "type": "kamera",
+      "location": "gedung serba guna desa",
+      "status": "aktif",
+      "last_update": "2025-09-19T11:00:00Z",
+      "data_snapshot": "url_gambar_009"
+    }
+  ],
+  "user_reports": [
+    {
+      "report_id": "R001",
+      "user_id": "U001",
+      "timestamp": "2025-09-19T08:00:00Z",
+      "location": "perbatasan utara",
+      "report_type": "ancaman",
+      "description": "Gerombolan mencurigakan terlihat",
+      "authenticated": true,
+      "attachment_url": null
+    },
+    {
+      "report_id": "R002",
+      "user_id": "U002",
+      "timestamp": "2025-09-19T08:10:00Z",
+      "location": "jalan masuk desa",
+      "report_type": "insiden",
+      "description": "Kecelakaan kendaraan di jalan utama",
+      "authenticated": true,
+      "attachment_url": "url_foto_001"
+    },
+    {
+      "report_id": "R003",
+      "user_id": "U003",
+      "timestamp": "2025-09-19T08:20:00Z",
+      "location": "pusat desa",
+      "report_type": "permohonan bantuan",
+      "description": "Permintaan bantuan medis",
+      "authenticated": true,
+      "attachment_url": null
+    },
+    {
+      "report_id": "R004",
+      "user_id": "U004",
+      "timestamp": "2025-09-19T08:30:00Z",
+      "location": "daerah pasar",
+      "report_type": "ancaman",
+      "description": "Potensi pencurian pasar",
+      "authenticated": true,
+      "attachment_url": null
+    },
+    {
+      "report_id": "R005",
+      "user_id": "U005",
+      "timestamp": "2025-09-19T08:40:00Z",
+      "location": "pemukiman RT 03",
+      "report_type": "insiden",
+      "description": "Kebakaran rumah warga",
+      "authenticated": true,
+      "attachment_url": "url_foto_002"
+    },
+    {
+      "report_id": "R006",
+      "user_id": "U006",
+      "timestamp": "2025-09-19T08:50:00Z",
+      "location": "kantor kepala desa",
+      "report_type": "permohonan bantuan",
+      "description": "Pengamanan acara desa",
+      "authenticated": true,
+      "attachment_url": null
+    },
+    {
+      "report_id": "R007",
+      "user_id": "U007",
+      "timestamp": "2025-09-19T09:00:00Z",
+      "location": "jalur selatan desa",
+      "report_type": "ancaman",
+      "description": "Orang mencurigakan berkeliling",
+      "authenticated": true,
+      "attachment_url": null
+    },
+    {
+      "report_id": "R008",
+      "user_id": "U008",
+      "timestamp": "2025-09-19T09:10:00Z",
+      "location": "pos ronda malam",
+      "report_type": "insiden",
+      "description": "Gangguan keamanan malam hari",
+      "authenticated": true,
+      "attachment_url": null
+    },
+    {
+      "report_id": "R009",
+      "user_id": "U009",
+      "timestamp": "2025-09-19T09:20:00Z",
+      "location": "perbatasan barat",
+      "report_type": "ancaman",
+      "description": "Gerombolan mencurigakan",
+      "authenticated": true,
+      "attachment_url": null
+    },
+    {
+      "report_id": "R010",
+      "user_id": "U010",
+      "timestamp": "2025-09-19T09:30:00Z",
+      "location": "area sekolah",
+      "report_type": "permohonan bantuan",
+      "description": "Bantuan pengaturan lalu lintas",
+      "authenticated": true,
+      "attachment_url": null
+    },
+    {
+      "report_id": "R011",
+      "user_id": "U011",
+      "timestamp": "2025-09-19T09:40:00Z",
+      "location": "kantor polisi desa",
+      "report_type": "insiden",
+      "description": "Pertengkaran di kantor polisi",
+      "authenticated": true,
+      "attachment_url": null
+    },
+    {
+      "report_id": "R012",
+      "user_id": "U012",
+      "timestamp": "2025-09-19T09:50:00Z",
+      "location": "area olahraga",
+      "report_type": "ancaman",
+      "description": "Keributan saat pertandingan",
+      "authenticated": true,
+      "attachment_url": null
+    },
+    {
+      "report_id": "R013",
+      "user_id": "U013",
+      "timestamp": "2025-09-19T10:00:00Z",
+      "location": "tempat parkir",
+      "report_type": "insiden",
+      "description": "Kecurian motor",
+      "authenticated": true,
+      "attachment_url": "url_foto_003"
+    },
+    {
+      "report_id": "R014",
+      "user_id": "U014",
+      "timestamp": "2025-09-19T10:10:00Z",
+      "location": "area rekreasi",
+      "report_type": "permohonan bantuan",
+      "description": "Permintaan pengawasan ekstra",
+      "authenticated": true,
+      "attachment_url": null
+    },
+    {
+      "report_id": "R015",
+      "user_id": "U015",
+      "timestamp": "2025-09-19T10:20:00Z",
+      "location": "hutan desa",
+      "report_type": "insiden",
+      "description": "Kebakaran lahan",
+      "authenticated": true,
+      "attachment_url": "url_foto_004"
+    },
+    {
+      "report_id": "R016",
+      "user_id": "U016",
+      "timestamp": "2025-09-19T10:30:00Z",
+      "location": "tempat sampah utama",
+      "report_type": "ancaman",
+      "description": "Ditemukan bahan mencurigakan",
+      "authenticated": true,
+      "attachment_url": null
+    },
+    {
+      "report_id": "R017",
+      "user_id": "U017",
+      "timestamp": "2025-09-19T10:40:00Z",
+      "location": "pusat desa",
+      "report_type": "insiden",
+      "description": "Kecelakaan ringan",
+      "authenticated": true,
+      "attachment_url": null
+    },
+    {
+      "report_id": "R018",
+      "user_id": "U018",
+      "timestamp": "2025-09-19T10:50:00Z",
+      "location": "pos pengamanan",
+      "report_type": "permohonan bantuan",
+      "description": "Permintaan tambahan petugas",
+      "authenticated": true,
+      "attachment_url": null
+    },
+    {
+      "report_id": "R019",
+      "user_id": "U019",
+      "timestamp": "2025-09-19T11:00:00Z",
+      "location": "perbatasan selatan",
+      "report_type": "ancaman",
+      "description": "Penampakan kendaraan mencurigakan",
+      "authenticated": true,
+      "attachment_url": "url_foto_005"
+    },
+    {
+      "report_id": "R020",
+      "user_id": "U020",
+      "timestamp": "2025-09-19T11:10:00Z",
+      "location": "daerah kejahatan timur",
+      "report_type": "insiden",
+      "description": "Perampokan toko",
+      "authenticated": true,
+      "attachment_url": "url_foto_006"
+    },
+    {
+      "report_id": "R021",
+      "user_id": "U021",
+      "timestamp": "2025-09-19T11:20:00Z",
+      "location": "jalan utama",
+      "report_type": "permohonan bantuan",
+      "description": "Permintaan pengawalan malam",
+      "authenticated": true,
+      "attachment_url": null
+    },
+    {
+      "report_id": "R022",
+      "user_id": "U022",
+      "timestamp": "2025-09-19T11:30:00Z",
+      "location": "pos ronda malam",
+      "report_type": "insiden",
+      "description": "Gangguan malam",
+      "authenticated": true,
+      "attachment_url": null
+    },
+    {
+      "report_id": "R023",
+      "user_id": "U023",
+      "timestamp": "2025-09-19T11:40:00Z",
+      "location": "pemukiman RT 05",
+      "report_type": "ancaman",
+      "description": "Potensi pencurian rumah",
+      "authenticated": true,
+      "attachment_url": null
+    },
+    {
+      "report_id": "R024",
+      "user_id": "U024",
+      "timestamp": "2025-09-19T11:50:00Z",
+      "location": "area sekolah",
+      "report_type": "permohonan bantuan",
+      "description": "Pengawasan sekolah",
+      "authenticated": true,
+      "attachment_url": null
+    },
+    {
+      "report_id": "R025",
+      "user_id": "U025",
+      "timestamp": "2025-09-19T12:00:00Z",
+      "location": "kantor kepala desa",
+      "report_type": "permohonan bantuan",
+      "description": "Pengamanan acara desa",
+      "authenticated": true,
+      "attachment_url": null
+    }
+  ],
+  "shinobi_intel": [
+    {
+      "intel_id": "I001",
+      "shinobi_id": "SH001",
+      "timestamp": "2025-09-19T07:30:00Z",
+      "location": "perbatasan utara",
+      "report": "Gerombolan terdeteksi memasuki wilayah",
+      "priority": "tinggi"
+    },
+    {
+      "intel_id": "I002",
+      "shinobi_id": "SH002",
+      "timestamp": "2025-09-19T07:45:00Z",
+      "location": "jalan masuk desa",
+      "report": "Kegiatan mencurigakan di jalan utama",
+      "priority": "sedang"
+    },
+    {
+      "intel_id": "I003",
+      "shinobi_id": "SH003",
+      "timestamp": "2025-09-19T08:00:00Z",
+      "location": "pusat desa",
+      "report": "Orang asing terlihat",
+      "priority": "sedang"
+    },
+    {
+      "intel_id": "I004",
+      "shinobi_id": "SH004",
+      "timestamp": "2025-09-19T08:15:00Z",
+      "location": "pos ronda malam",
+      "report": "Peningkatan aktivitas malam hari",
+      "priority": "tinggi"
+    },
+    {
+      "intel_id": "I005",
+      "shinobi_id": "SH005",
+      "timestamp": "2025-09-19T08:30:00Z",
+      "location": "perbatasan selatan",
+      "report": "Penampakan kendaraan tidak dikenal",
+      "priority": "tinggi"
+    },
+    {
+      "intel_id": "I006",
+      "shinobi_id": "SH006",
+      "timestamp": "2025-09-19T08:45:00Z",
+      "location": "area sekolah",
+      "report": "Kegiatan mencurigakan di sekitar sekolah",
+      "priority": "sedang"
+    },
+    {
+      "intel_id": "I007",
+      "shinobi_id": "SH007",
+      "timestamp": "2025-09-19T09:00:00Z",
+      "location": "kantor polisi desa",
+      "report": "Meningkatnya ketegangan masyarakat",
+      "priority": "sedang"
+    },
+    {
+      "intel_id": "I008",
+      "shinobi_id": "SH008",
+      "timestamp": "2025-09-19T09:15:00Z",
+      "location": "kawasan pasar desa",
+      "report": "Pergerakan kelompok asing",
+      "priority": "tinggi"
+    },
+    {
+      "intel_id": "I009",
+      "shinobi_id": "SH009",
+      "timestamp": "2025-09-19T09:30:00Z",
+      "location": "pos pengamanan barat",
+      "report": "Peningkatan patroli diperlukan",
+      "priority": "sedang"
+    },
+    {
+      "intel_id": "I010",
+      "shinobi_id": "SH010",
+      "timestamp": "2025-09-19T09:45:00Z",
+      "location": "daerah hutan",
+      "report": "Jejak kaki mencurigakan",
+      "priority": "tinggi"
+    },
+    {
+      "intel_id": "I011",
+      "shinobi_id": "SH011",
+      "timestamp": "2025-09-19T10:00:00Z",
+      "location": "perbatasan timur",
+      "report": "Dakwaan adanya persiapan serangan",
+      "priority": "tinggi"
+    },
+    {
+      "intel_id": "I012",
+      "shinobi_id": "SH012",
+      "timestamp": "2025-09-19T10:15:00Z",
+      "location": "gedung serba guna desa",
+      "report": "Rapat keamanan berlangsung",
+      "priority": "rendah"
+    },
+    {
+      "intel_id": "I013",
+      "shinobi_id": "SH013",
+      "timestamp": "2025-09-19T10:30:00Z",
+      "location": "jalan utama desa",
+      "report": "Pengawasan malam diperketat",
+      "priority": "sedang"
+    },
+    {
+      "intel_id": "I014",
+      "shinobi_id": "SH014",
+      "timestamp": "2025-09-19T10:45:00Z",
+      "location": "daerah pemukiman RT 05",
+      "report": "Aktivitas mencurigakan terpantau",
+      "priority": "tinggi"
+    },
+    {
+      "intel_id": "I015",
+      "shinobi_id": "SH015",
+      "timestamp": "2025-09-19T11:00:00Z",
+      "location": "tempat parkir utama",
+      "report": "Keamanan ditingkatkan",
+      "priority": "sedang"
+    },
+    {
+      "intel_id": "I016",
+      "shinobi_id": "SH016",
+      "timestamp": "2025-09-19T11:15:00Z",
+      "location": "area sekolah",
+      "report": "Patroli siang telah dilaksanakan",
+      "priority": "rendah"
+    },
+    {
+      "intel_id": "I017",
+      "shinobi_id": "SH017",
+      "timestamp": "2025-09-19T11:30:00Z",
+      "location": "pos ronda timur",
+      "report": "Peningkatan patroli malam",
+      "priority": "sedang"
+    },
+    {
+      "intel_id": "I018",
+      "shinobi_id": "SH018",
+      "timestamp": "2025-09-19T11:45:00Z",
+      "location": "daerah pasar",
+      "report": "Peringatan potensi konflik",
+      "priority": "tinggi"
+    },
+    {
+      "intel_id": "I019",
+      "shinobi_id": "SH019",
+      "timestamp": "2025-09-19T12:00:00Z",
+      "location": "kawasan hutan",
+      "report": "Jejak baru ditemukan",
+      "priority": "sedang"
+    },
+    {
+      "intel_id": "I020",
+      "shinobi_id": "SH020",
+      "timestamp": "2025-09-19T12:15:00Z",
+      "location": "kantor kepala desa",
+      "report": "Koordinasi pengamanan sukses",
+      "priority": "rendah"
+    },
+    {
+      "intel_id": "I021",
+      "shinobi_id": "SH021",
+      "timestamp": "2025-09-19T12:30:00Z",
+      "location": "perbatasan utara",
+      "report": "Gerombolan berhasil dihalau",
+      "priority": "tinggi"
+    },
+    {
+      "intel_id": "I022",
+      "shinobi_id": "SH022",
+      "timestamp": "2025-09-19T12:45:00Z",
+      "location": "jalan masuk desa",
+      "report": "Situasi aman",
+      "priority": "rendah"
+    },
+    {
+      "intel_id": "I023",
+      "shinobi_id": "SH023",
+      "timestamp": "2025-09-19T13:00:00Z",
+      "location": "pos pengamanan timur",
+      "report": "Peningkatan patroli diminta",
+      "priority": "sedang"
+    },
+    {
+      "intel_id": "I024",
+      "shinobi_id": "SH024",
+      "timestamp": "2025-09-19T13:15:00Z",
+      "location": "dekat pasar",
+      "report": "Pengerahan personel tambahan",
+      "priority": "tinggi"
+    },
+    {
+      "intel_id": "I025",
+      "shinobi_id": "SH025",
+      "timestamp": "2025-09-19T13:30:00Z",
+      "location": "pos keamanan pusat",
+      "report": "Pra-persiapan menghadapi krisis",
+      "priority": "tinggi"
+    }
+  ],
+  "historical_data": [
+    {
+      "record_id": "H001",
+      "date": "2024-12-01",
+      "event_type": "ancaman",
+      "location": "perbatasan utara",
+      "description": "Serangan kelompok bersenjata",
+      "resolution": "patroli diperkuat"
+    },
+    {
+      "record_id": "H002",
+      "date": "2024-11-15",
+      "event_type": "insiden",
+      "location": "jalan masuk desa",
+      "description": "Kecelakaan lalu lintas",
+      "resolution": "evakuasi cepat"
+    },
+    {
+      "record_id": "H003",
+      "date": "2024-10-20",
+      "event_type": "permohonan bantuan",
+      "location": "pusat desa",
+      "description": "Bantuan medis",
+      "resolution": "ambulans dikirim"
+    },
+    {
+      "record_id": "H004",
+      "date": "2024-09-05",
+      "event_type": "ancaman",
+      "location": "daerah pasar",
+      "description": "Potensi pencurian barang berharga",
+      "resolution": "penjagaan diperketat"
+    },
+    {
+      "record_id": "H005",
+      "date": "2024-08-12",
+      "event_type": "insiden",
+      "location": "pemukiman RT 03",
+      "description": "Kebakaran rumah warga",
+      "resolution": "pemadam kebakaran tanggap"
+    },
+    {
+      "record_id": "H006",
+      "date": "2024-07-01",
+      "event_type": "permohonan bantuan",
+      "location": "kantor kepala desa",
+      "description": "Pengamanan acara besar",
+      "resolution": "koordinasi kepolisian"
+    },
+    {
+      "record_id": "H007",
+      "date": "2024-06-18",
+      "event_type": "ancaman",
+      "location": "jalur selatan desa",
+      "description": "Orang mencurigakan aktif",
+      "resolution": "patroli intensif"
+    },
+    {
+      "record_id": "H008",
+      "date": "2024-05-23",
+      "event_type": "insiden",
+      "location": "pos ronda malam",
+      "description": "Gangguan malam hari",
+      "resolution": "penanganan segera"
+    },
+    {
+      "record_id": "H009",
+      "date": "2024-04-30",
+      "event_type": "ancaman",
+      "location": "perbatasan barat",
+      "description": "Gerombolan masuk desa",
+      "resolution": "penangkalan dilakukan"
+    },
+    {
+      "record_id": "H010",
+      "date": "2024-03-14",
+      "event_type": "permohonan bantuan",
+      "location": "area sekolah",
+      "description": "Pengaturan lalu lintas",
+      "resolution": "penjagaan sekolah ditingkatkan"
+    },
+    {
+      "record_id": "H011",
+      "date": "2024-02-11",
+      "event_type": "insiden",
+      "location": "kantor polisi desa",
+      "description": "Perkelahian massa",
+      "resolution": "penyelesaian polisi"
+    },
+    {
+      "record_id": "H012",
+      "date": "2024-01-25",
+      "event_type": "ancaman",
+      "location": "area olahraga",
+      "description": "Keributan di pertandingan",
+      "resolution": "pengawasan diperketat"
+    },
+    {
+      "record_id": "H013",
+      "date": "2023-12-05",
+      "event_type": "insiden",
+      "location": "tempat parkir",
+      "description": "Kecurian kendaraan",
+      "resolution": "penyelidikan berjalan"
+    },
+    {
+      "record_id": "H014",
+      "date": "2023-11-18",
+      "event_type": "permohonan bantuan",
+      "location": "area rekreasi",
+      "description": "Pengawasan tambahan diminta",
+      "resolution": "peningkatan patroli"
+    },
+    {
+      "record_id": "H015",
+      "date": "2023-10-03",
+      "event_type": "insiden",
+      "location": "hutan desa",
+      "description": "Kebakaran lahan",
+      "resolution": "pemadaman dilakukan"
+    },
+    {
+      "record_id": "H016",
+      "date": "2023-09-15",
+      "event_type": "ancaman",
+      "location": "tempat sampah utama",
+      "description": "Penemuan bahan mencurigakan",
+      "resolution": "penyelidikan polisi"
+    },
+    {
+      "record_id": "H017",
+      "date": "2023-08-20",
+      "event_type": "insiden",
+      "location": "pusat desa",
+      "description": "Kecelakaan ringan",
+      "resolution": "evakuasi medis"
+    },
+    {
+      "record_id": "H018",
+      "date": "2023-07-30",
+      "event_type": "permohonan bantuan",
+      "location": "pos pengamanan",
+      "description": "Butuh tambahan personel",
+      "resolution": "pasukan tambahan dikirim"
+    },
+    {
+      "record_id": "H019",
+      "date": "2023-06-10",
+      "event_type": "ancaman",
+      "location": "perbatasan selatan",
+      "description": "Penampakan kendaraan mencurigakan",
+      "resolution": "pengawasan diperketat"
+    },
+    {
+      "record_id": "H020",
+      "date": "2023-05-12",
+      "event_type": "insiden",
+      "location": "daerah kejahatan timur",
+      "description": "Perampokan toko",
+      "resolution": "penyelidikan berjalan"
+    },
+    {
+      "record_id": "H021",
+      "date": "2023-04-18",
+      "event_type": "permohonan bantuan",
+      "location": "jalan utama",
+      "description": "Pengawalan malam hari",
+      "resolution": "pengamanan diperkuat"
+    },
+    {
+      "record_id": "H022",
+      "date": "2023-03-25",
+      "event_type": "insiden",
+      "location": "pos ronda malam",
+      "description": "Gangguan keamanan malam",
+      "resolution": "penanganan cepat"
+    },
+    {
+      "record_id": "H023",
+      "date": "2023-02-28",
+      "event_type": "ancaman",
+      "location": "pemukiman RT 05",
+      "description": "Potensi pencurian rumah",
+      "resolution": "patroli diperketat"
+    },
+    {
+      "record_id": "H024",
+      "date": "2023-01-15",
+      "event_type": "permohonan bantuan",
+      "location": "area sekolah",
+      "description": "Pengawasan siswa",
+      "resolution": "penjagaan tambahan"
+    },
+    {
+      "record_id": "H025",
+      "date": "2022-12-05",
+      "event_type": "permohonan bantuan",
+      "location": "kantor kepala desa",
+      "description": "Pengamanan acara desa",
+      "resolution": "koordinasi dilakukan"
+    }
+  ]
+}
